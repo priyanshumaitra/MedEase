@@ -1,5 +1,20 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
+const navLinks = [
+  {
+    path:'/home',
+    display: 'Home'
+  },
+  {
+    path:'/doctors',
+    display: 'Find a Doctor'
+  },
+  {
+    path:'/services',
+    display: '
+  },
+  
+]
 
 const Header = () => {
   return (
@@ -12,6 +27,7 @@ const Header = () => {
           </div>
 
           {/* Menu */}
+
         </div>
       </div>
     </header>
